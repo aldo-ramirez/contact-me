@@ -110,3 +110,10 @@ a:hover {
   background-color: black;
   color: white;
 }
+
+@media only screen and (max-width: 600px) {
+  .carousel {
+    width: 500px;
+    height: 350px;
+  }
+}

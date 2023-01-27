@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   width: 100vw;
   height: 100vh;
@@ -63,4 +68,24 @@ a:hover {
 
 img {
   margin: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 150px 150px 150px 250px;
+  }
+
+  .header {
+    grid-column: 1/6;
+  }
+  nav {
+    grid-column: 1/6;
+  }
+  .languages {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
