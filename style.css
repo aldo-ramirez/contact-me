@@ -109,8 +109,8 @@ a:hover {
     height: 100%;
   }
   .pho {
-    width: 150px;
-    height: 200px;
+    width: 120px;
+    height: 160px;
   }
   header {
     grid-column: 1/6;
